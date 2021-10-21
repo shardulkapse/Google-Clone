@@ -1,6 +1,5 @@
 import { XIcon } from "@heroicons/react/solid";
 import { CogIcon, MicrophoneIcon, SearchIcon } from "@heroicons/react/outline";
-import Image from "next/image";
 import { useRouter } from "next/router";
 import { useRef } from "react";
 import Avatar from "./Avatar";
@@ -25,7 +24,7 @@ function Header({term}) {
   return (
     <header className="bg-gray-900 sticky top-0">
       <div className="flex w-full p-6 items-center">
-        <Image
+        <img
           src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png"
           height={40}
           width={120}
