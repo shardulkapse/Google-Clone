@@ -12,7 +12,7 @@ function SearchResults({ results }) {
 
       {results.items?.map((result) => (
         <div key={result.link} className="max-w-xl mb-8">
-            <div className="group">
+            <div className="group overflow-x-hidden">
                 <a href={result.link} className="text-sm text-gray-400">{result.formattedUrl}</a>
                 <a href={result.link}><h1 className="text-blue-500 text-xl truncate font-medium group-hover:underline">{result.title}</h1></a>
             </div>
