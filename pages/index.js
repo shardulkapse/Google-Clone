@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { MenuIcon, SearchIcon, MicrophoneIcon } from "@heroicons/react/outline";
 import Avatar from "../components/Avatar";
-import Image from "next/image";
 import Footer from "../components/Footer";
 import { useRef } from "react";
 import { useRouter } from "next/router";
@@ -41,7 +40,7 @@ export default function Home() {
         </div>
       </header>
       <form className="flex flex-col items-center mt-24 flex-grow px-10 sm:mt-24 md:mt-14">
-        <Image
+        <img
           src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png"
           height={100}
           width={300}
